@@ -352,6 +352,22 @@ margin-left: 6rem;
 }
 
 
+.information
+{
+  margin: auto; 
+  margin-top: 4rem;
+}
+
+
+.forhov:hover 
+{
+  color: #f6e05e;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+
+
 
 
 @media(max-width: 1200px)
@@ -411,13 +427,6 @@ margin-left: 6rem;
     margin-top: 3rem;
   }
 
-  .img-div img 
-  {
-
-    transform: scale(0.6);
-    margin-top: 5rem;
-    height: 100vh;
-  }
 
   .servicesheading
   {
@@ -427,7 +436,18 @@ margin-left: 6rem;
   .img-div
   {
 
+    /* margin: auto!important; */
+    /* background-color: red; */
+    margin-top: 5rem!important;
+  }
+
+
+  .img-div img 
+  {
     margin: auto!important;
+    /* transform: scale(0.6); */
+    margin-top: 5rem;
+    padding-left: 6rem;
 
   }
 
@@ -456,12 +476,6 @@ margin-left: 6rem;
   }
 
 
-  .img-div
-  {
-    margin-top: 5rem;
-  }
-
-
 }
 
 
@@ -481,8 +495,20 @@ margin-left: 6rem;
 
   }
 
+  .marker:after {
+    top: 35%;
+    left: 23%;
+  }
 
+  .information
+  {
+    text-align: center;
+  }
 
+.img-div img 
+{
+  border-radius: 0px;
+}
 }
 
 
