@@ -1,857 +1,390 @@
-<!DOCTYPE html>
-<html ng-app="ngApp" ng-controller="controller" lang="en">
+<!doctype html>
+<html ng-app=ngApp ng-controller=controller lang=en>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- fontawesome cdn  -->
-<script src="https://kit.fontawesome.com/407bd6b71f.js" crossorigin="anonymous"></script>
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
-
-         <!-- style file -->
-         <link rel="stylesheet" href="style.css">
-
-    <!-- data aos  -->
-    <script src="dist/aos.js"></script>
-    <!-- data aos -->
-    <link rel="stylesheet" href="dist/aos.css"/>
-
-
-
-    <title>SALMAN MEMON</title>
-
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<script src=https://kit.fontawesome.com/407bd6b71f.js crossorigin=anonymous></script>
+<link rel=stylesheet href=bootstrap/css/bootstrap.css>
+<link rel=stylesheet href=bootstrap/css/bootstrap-grid.css>
+<link rel=stylesheet href=style.css>
+<script src=dist/aos.js></script>
+<link rel=stylesheet href=dist/aos.css>
+<title>SALMAN MEMON</title>
 </head>
 <body>
-    
- 
-
-  
-
-<header class="bg-light">
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand ml-5 mt-2" href="#portfolio">Salman Memon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse navbarr" id="navbarText">
-
-          <ul class="navbar-nav">
-            <li class="nav-item p-2">
-              <a class="nav-link ex-m1" href="#about">About</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item p-2">
-                <a class="nav-link" href="#belowportfolio">portfolio</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-          </ul>
-
-
-        </div>
-
-
-      </nav>
-
+<div id=preloader></div>
+<header class=bg-light>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand ml-5 mt-2" href=#portfolio>Salman Memon</a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarText aria-controls=navbarText aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse navbarr" id=navbarText>
+<ul class=navbar-nav>
+<li class="nav-item p-2">
+<a class="nav-link ex-m1" href=#about>About</a>
+</li>
+<li class="nav-item p-2">
+<a class=nav-link href=#services>Services</a>
+</li>
+<li class="nav-item p-2">
+<a class=nav-link href=#skills>Skills</a>
+</li>
+<li class="nav-item p-2">
+<a class=nav-link href=#belowportfolio>portfolio</a>
+</li>
+<li class="nav-item p-2">
+<a class=nav-link href=#contact>Contact</a>
+</li>
+</ul>
+</div>
+</nav>
 </header>
-
-
-
-
-
-<section id="portfolio">
-
+<section id=portfolio>
 <div class="cover bg-light">
-
 <div class="container px-3">
-
-
-    <div class="row">
-
-
+<div class=row>
 <div class="col-lg-6 pt-4">
-
-<img src="images/mainimg.svg" class=" " alt="Dammy-Img" style="max-width: 100%; height: auto;">
+<img src=images/mainimg.svg alt=Dammy-Img style=max-width:100%;height:auto>
 </div>
-
-
-
 <div class="col-lg-6 mt-5">
-
-    <div class="mt-5">
-
-
-        <p class="lead text-uppercase mb-1" style="font-weight: 300; font-size: 1.25rem; letter-spacing: .05em;">Hello!</p>
-
-        <h1 class="marker">I'm Salman Memon</h1>
-        <p class="lead fw-normal mt-4" data-aos="fade-up" data-aos-delay="50">Web Developer & UI/UX Designer</p>
-
-
-
-        <div class="wrapper">
-          <div class="icon facebook" data-aos="fade-up" data-aos-delay="400">
-            <div class="tooltip">Facebook</div>
-            <span onclick="window.open('https://www.facebook.com/salmanmemon0909' , '_blank' )"><i class="fa-brands fa-facebook pl-2"></i></span>
-          </div>
-          <div class="icon twitter" data-aos="fade-up" data-aos-delay="600">
-            <div class="tooltip">Twitter</div>
-            <span onclick="window.open('https://twitter.com/salmanmemon0909' , '_blank')"><i class="fa-brands fa-twitter pl-2"></i></span>
-          </div>
-          <div class="icon instagram" data-aos="fade-up" data-aos-delay="800">
-            <div class="tooltip">Instagram</div>
-            <span onclick="window.open('https://www.instagram.com/salman_memon_0909/' , '_blank')"> <i class="fa-brands fa-instagram pl-2"></i></span>
-          </div>
-          <div class="icon github" data-aos="fade-up" data-aos-delay="1000">
-            <div class="tooltip">Github</div>
-            <span onclick="window.open('https://github.com/salmanmemon0909' , '_blank')"><i class="fa-brands fa-github pl-2"></i></span>
-          </div>
-          <div class="icon linkedin" data-aos="fade-up" data-aos-delay="1200">
-            <div class="tooltip">Linkedin</div>
-            <span onclick="window.open('https://www.linkedin.com/in/salmanmemon0909/' , '_blank')"><i class="fa-brands fa-linkedin pl-2"></i></span>
-          </div>
-        </div>
-
-<div class="btndiv mt-5" data-aos="fade-up" data-aos-delay="1400">
-  
-  <div class="btn-container"> 
-    <a class="text-decoration-none" download href="cv/SALMAN MEMON.pdf">
-    <button class="tchbtn">
-      <span class="text">&nbsp;Download CV &nbsp;</span>
-      <div class="icon-container">
-        <div class="icon icon--left">
-          <svg>
-            <use xlink:href="#arrow-right"></use>
-          </svg>
-        </div>
-        <div class="icon icon--right">
-          <svg>
-            <use xlink:href="#arrow-right"></use>
-          </svg>
-        </div>
-      </div>
-    </button>
-  </a>
-  </div>
-  
-  <svg style="display: none;">
-    <symbol id="arrow-right" viewBox="0 0 20 10">
-      <path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
-    </symbol>
-  </svg>
-  
-
-    </div>
-    </div>
+<div class=mt-5>
+<p class="lead text-uppercase mb-1" style=font-weight:300;font-size:1.25rem;letter-spacing:.05em>Hello!</p>
+<h1 class=marker>I'm Salman Memon</h1>
+<p class="lead fw-normal mt-4" data-aos=fade-up data-aos-delay=50>Web Developer & UI/UX Designer</p>
+<div class=wrapper>
+<div class="icon facebook" data-aos=fade-up data-aos-delay=400>
+<div class=tooltip>Facebook</div>
+<span onclick='window.open("https://www.facebook.com/salmanmemon0909","_blank")'><i class="fa-brands fa-facebook pl-2"></i></span>
 </div>
-    </div>
-
+<div class="icon twitter" data-aos=fade-up data-aos-delay=600>
+<div class=tooltip>Twitter</div>
+<span onclick='window.open("https://twitter.com/salmanmemon0909","_blank")'><i class="fa-brands fa-twitter pl-2"></i></span>
+</div>
+<div class="icon instagram" data-aos=fade-up data-aos-delay=800>
+<div class=tooltip>Instagram</div>
+<span onclick='window.open("https://www.instagram.com/salman_memon_0909/","_blank")'> <i class="fa-brands fa-instagram pl-2"></i></span>
+</div>
+<div class="icon github" data-aos=fade-up data-aos-delay=1000>
+<div class=tooltip>Github</div>
+<span onclick='window.open("https://github.com/salmanmemon0909","_blank")'><i class="fa-brands fa-github pl-2"></i></span>
+</div>
+<div class="icon linkedin" data-aos=fade-up data-aos-delay=1200>
+<div class=tooltip>Linkedin</div>
+<span onclick='window.open("https://www.linkedin.com/in/salmanmemon0909/","_blank")'><i class="fa-brands fa-linkedin pl-2"></i></span>
 </div>
 </div>
-
-
-
-
-<div class="container-fluid wavy-img" id="about">
+<div class="btndiv mt-5" data-aos=fade-up data-aos-delay=1400>
+<div class=btn-container>
+<a class=text-decoration-none download href="cv/SALMAN MEMON.pdf">
+<button class=tchbtn>
+<span class=text>&nbsp;Download CV &nbsp;</span>
+<div class=icon-container>
+<div class="icon icon--left"><svg><use xlink:href=#arrow-right></use></svg></div><div class="icon icon--right"><svg>
+<use xlink:href=#arrow-right></use></svg></div></div></button></a></div>
+<svg style=display:none>
+<symbol id=arrow-right viewBox="0 0 20 10">
+<path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
+</symbol>
+</svg></div></div></div></div></div></div>
+<div class="container-fluid wavy-img" id=about>
 </div>
-
-
-
-
-
 <div class="container mt-5">
-  <div class="row">
-    <div class="col-lg-6">
-
-      <h2 class="">Hello! I’m Salman Memon</h2>
-
-      <p class="lead mt-3">I am passionate about UI/UX design and Web Developer. I am a skilled front-end developer. I am a quick learner and a team worker that gets the job done.</p>
-
-      <div class="row information">
-        <div class="col-2">Age:</div>
-        <div class="col-sm-9 col-10" style="font-weight: 600; margin-left: auto!important;">19</div>
-
-        <div class="col-2 mt-2">Email:</div>
-        <div class="col-sm-9 col-10 mt-2 forhov" style="font-weight: 600;margin-left: auto!important;" onclick="window.open('mailto:salmanmemon0909@gmail.com' , '_self')">salmanmemon0909@gmail.com</div>
-
-        <div class="col-2 mt-2">Phone:</div>
-        <div class="col-sm-9 col-10 mt-2 forhov" style="font-weight: 600; margin-left: auto!important;"  onclick="window.open('tel:03172761910' , '_self')">+923172761910</div>
-
-        <div class="col-2 mt-2">Address:</div>
-        <div class="col-sm-9 col-10 mt-2" style="font-weight: 600; margin-left: auto!important;">Karachi, Pakistan</div>
-
-        <div class="col-2 mt-2">Status:</div>
-        <div class="col-sm-9 col-10 mt-2" style="font-weight: 600; margin-left: auto!important;">Available</div>
-      </div>
-
-
-    </div>
-
-
-
-
-    <div class="col-lg-6 my-img-div">
-
-        <img src="images/my-img.png" alt="My-Img" class="img-fluid my-img" data-aos="fade-down" data-aos-offset="400">
-
-
-
-    </div>
-  </div>
+<div class=row>
+<div class=col-lg-6>
+<h2>Hello! I’m Salman Memon</h2>
+<p class="lead mt-3">I am passionate about UI/UX design and Web Developer. I am a skilled front-end developer. I am a quick learner and a team worker that gets the job done.</p>
+<div class="row information">
+<div class=col-2>Age:</div>
+<div class="col-sm-9 col-10" style=font-weight:600;margin-left:auto!important>19</div>
+<div class="col-2 mt-2">Email:</div>
+<div class="col-sm-9 col-10 mt-2 forhov" style=font-weight:600;margin-left:auto!important onclick='window.open("mailto:salmanmemon0909@gmail.com","_self")'>salmanmemon0909@gmail.com</div>
+<div class="col-2 mt-2">Phone:</div>
+<div class="col-sm-9 col-10 mt-2 forhov" style=font-weight:600;margin-left:auto!important onclick='window.open("tel:03172761910","_self")'>+923172761910</div>
+<div class="col-2 mt-2">Address:</div>
+<div class="col-sm-9 col-10 mt-2" style=font-weight:600;margin-left:auto!important>Karachi, Pakistan</div>
+<div class="col-2 mt-2">Status:</div>
+<div class="col-sm-9 col-10 mt-2" style=font-weight:600;margin-left:auto!important>Available</div>
 </div>
-
-
-
-
-
-<div class="container" id="services">
-
-<h3 class="servicesheading">My Services</h3>
-<img src="images/marker.svg" class="servicesimg img-fluid" alt="marker-img">
-
-
+</div>
+<div class="col-lg-6 my-img-div">
+<img src=images/my-img.png alt=My-Img class="img-fluid my-img" data-aos=fade-down data-aos-offset=400>
+</div>
+</div>
+</div>
+<div class=container id=services>
+<h3 class=servicesheading>My Services</h3>
+<img src=images/marker.svg class="servicesimg img-fluid" alt=marker-img>
 <p class="lead servicestxt mb-5">I offer services fit for any website. I can quickly maximize timely deliverables for real-time schemas.</p>
-
-
 <div class="row container mt-5">
-
-<div class="col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100" data-aos-offset="220">
-
-<img src="images/web-development.png" class="img-fluid services-img" alt="web-development">
-<h4 class="mt-3">Web Developer</h4>
-
+<div class="col-lg-3 text-center" data-aos=fade-up data-aos-delay=100 data-aos-offset=220>
+<img src=images/web-development.png class="img-fluid services-img" alt=web-development>
+<h4 class=mt-3>Web Developer</h4>
 </div>
-
-
-<div class="col-lg-3 text-center" data-aos="fade-up" data-aos-delay="250" data-aos-offset="220">
-
-  <img src="images/ux-design.png" class="img-fluid services-img" alt="ux-design">
-  <h4 class="mt-3">Web Designer</h4>
-  
-  </div>
-
-
-
-  
-<div class="col-lg-3 text-center" data-aos="fade-up" data-aos-delay="350" data-aos-offset="220">
-
-  <img src="images/psd.png" class="img-fluid services-img" alt="psd">
-  <h4 class="mt-3 ml-4">Php & Laravel websites</h4>
-  
-  </div>
-
-
-
-  <div class="col-lg-3 text-center" data-aos="fade-up" data-aos-delay="450" data-aos-offset="220">
-
-    <img src="images/seo.png" class="img-fluid services-img" alt="seo">
-    <h4 class="mt-3">Database Work</h4>
-    
-    </div>
-
-
-
+<div class="col-lg-3 text-center" data-aos=fade-up data-aos-delay=250 data-aos-offset=220>
+<img src=images/ux-design.png class="img-fluid services-img" alt=ux-design>
+<h4 class=mt-3>Web Designer</h4>
 </div>
-
-
-
+<div class="col-lg-3 text-center" data-aos=fade-up data-aos-delay=350 data-aos-offset=220>
+<img src=images/psd.png class="img-fluid services-img" alt=psd>
+<h4 class="mt-3 ml-4">Php & Laravel websites</h4>
 </div>
-
-
-
-
-
-
-
-
-<div class="container" style="margin-top: 7rem;" id="skills">
-
-  <h3 class="text-center">My Skills</h3>
-  <img src="images/marker.svg" class="skillimg img-fluid" alt="marker-img">
-
+<div class="col-lg-3 text-center" data-aos=fade-up data-aos-delay=450 data-aos-offset=220>
+<img src=images/seo.png class="img-fluid services-img" alt=seo>
+<h4 class=mt-3>Database Work</h4>
+</div>
+</div>
+</div>
+<div class=container style=margin-top:7rem id=skills>
+<h3 class=text-center>My Skills</h3>
+<img src=images/marker.svg class="skillimg img-fluid" alt=marker-img>
 <p class="lead skilltext mt-5">I am a quick learner and specialize in multitude of skills required for Web Development and Product Design</p>
-
-
-
 <div class="container row skilssdiiv">
-
-<div class="col-md-5">
-
-<div class="py-1">
-
-  <div class="d-flex text-small fw-bolder mt-4">
-
-    <span class="me-auto" style="margin-right: auto!important;">HTML5</span>
-    <span>98%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" style="width: 98%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">Expert</div>
-    
-  </div>
-
+<div class=col-md-5>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-4">
+<span class=me-auto style=margin-right:auto!important>HTML5</span>
+<span>98%</span>
 </div>
-
-
-
-
-
-<div class="py-1">
-
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">CSS3</span>
-    <span>95%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" style="width: 95%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Expert</div>
-    
-  </div>
-
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=100 style=width:98%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=98 aria-valuemin=0 aria-valuemax=100>Expert</div>
 </div>
-
-
-
-
-
-<div class="py-1">
-
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">JAVASCRIPT</span>
-    <span>75%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" style="width: 75%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-    
-  </div>
-
 </div>
-
-
-
-
-<div class="py-1">
-
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">Jquery</span>
-    <span>75%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" style="width: 75%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-    
-  </div>
-
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>CSS3</span>
+<span>95%</span>
 </div>
-
-
-
-<div class="py-1">
-
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">C++</span>
-    <span>80%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" style="width: 80%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Expert</div>
-    
-  </div>
-
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=200 style=width:95%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=95 aria-valuemin=0 aria-valuemax=100>Expert</div>
 </div>
-
-
-
-
-
-
-<div class="py-1">
-  
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">Core Php</span>
-    <span>89%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" style="width: 89%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Expert</div>
-    
-  </div>
-
 </div>
-
-
-
-<div class="py-1">
-  
-  <div class="d-flex text-small fw-bolder mt-3">
-
-    <span class="me-auto" style="margin-right: auto!important;">Mysql</span>
-    <span>92%</span>
-  </div>
-
-  <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-
-    <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" style="width: 92%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Expert</div>
-    
-  </div>
-
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>JAVASCRIPT</span>
+<span>75%</span>
 </div>
-
-
-
-
-
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=300 style=width:75%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=65 aria-valuemin=0 aria-valuemax=100>Intermediate</div>
 </div>
-
-
-
-
-
-
-
-<div class="col-md-5" style="margin-left: auto!important;">
-
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-4">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Bootstrap</span>
-      <span>95%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" style="width: 95%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Expert</div>
-      
-    </div>
-  
-  </div>
-  
-  
-  
-  
-  
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Jquery Ui</span>
-      <span>90%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" style="width: 90%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Expert</div>
-      
-    </div>
-  
-  </div>
-  
-  
-  
-  
-  
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">SEO</span>
-      <span>94%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" style="width: 94%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">Expert</div>
-      
-    </div>
-  
-  </div>
-  
-  
-  
-  
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Office-Automation</span>
-      <span>75%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" style="width: 75%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-      
-    </div>
-  
-  </div>
-
-
-
-
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Angular JS</span>
-      <span>79%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" style="width: 79%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Expert</div>
-      
-    </div>
-  
-  </div>
-
-
-
-
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Laravel</span>
-      <span>75%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" style="width: 75%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-      
-    </div>
-  
-  </div>
-
-
-
-
-  
-  <div class="py-1">
-  
-    <div class="d-flex text-small fw-bolder mt-3">
-  
-      <span class="me-auto" style="margin-right: auto!important;">Xml & Json</span>
-      <span>78%</span>
-    </div>
-  
-    <div class="progress my-2" style="border-radius: 20px; height: 3vh;">
-  
-      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" style="width: 78%;     background-color: #f6e05e!important; border-radius: 20px; height: 3vh;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-      
-    </div>
-  
-  </div>
-
-
-  
-
-
-
-
-  
-  
-  </div>
-
-
-
-
 </div>
-
-
-
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Jquery</span>
+<span>75%</span>
 </div>
-
-
-
-
-
-
-
-
-
-<div class="container-fluid" style="margin-top: 10rem;" id="belowportfolio">
-
-  <h3 class="text-center">Portfolio</h3>
-  <img src="images/marker.svg" class="portfolioimg img-fluid" alt="marker-img">
-
-
-  <div class="container-fluid" style="width: 95%; margin: auto;">
-
-
-    <div class="container-fluid mt-5 img-gallery">
-
-
-
-      
-      <div class="box" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="190">
-        <div class="img-box">
-       <figure> <img src="images/project1.png" class="img-fluid" alt="project1"> </figure>
-      </div>
-      <div class="container img-box-text">
-        <h5>AageBarho</h5>
-        <button onclick="window.open('https://salmanmemon0909.github.io/aagebarho/' , '_blank')">View</button>
-      </div>
-      </div>
-
-
-
-      <div class="box" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="190">
-  <div class="img-box">
- <figure> <img src="images/project3.png" class="img-fluid" alt="project3"> </figure>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=300 style=width:75%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=75 aria-valuemin=0 aria-valuemax=100>Intermediate</div>
+</div>
+</div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>C++</span>
+<span>80%</span>
+</div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=300 style=width:80%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=75 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div>
+</div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Core Php</span>
+<span>89%</span>
+</div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=500 style=width:89%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div>
+</div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Mysql</span>
+<span>92%</span>
+</div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=500 style=width:92%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div>
+</div>
+</div>
+<div class=col-md-5 style=margin-left:auto!important>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-4">
+<span class=me-auto style=margin-right:auto!important>Bootstrap</span>
+<span>95%</span>
+</div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=400 style=width:95%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=95 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div>
+</div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Jquery Ui</span>
+<span>90%</span>
+</div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=500 style=width:90%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div>
+</div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>SEO</span>
+<span>94%</span></div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=600 style=width:94%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=94 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div></div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Office-Automation</span>
+<span>75%</span></div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=600 style=width:75%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=75 aria-valuemin=0 aria-valuemax=100>Intermediate</div>
+</div></div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Angular JS</span>
+<span>79%</span></div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=600 style=width:79%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=75 aria-valuemin=0 aria-valuemax=100>Expert</div>
+</div></div><div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Laravel</span>
+<span>75%</span></div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=500 style=width:75%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>Intermediate</div>
+</div></div>
+<div class=py-1>
+<div class="d-flex text-small fw-bolder mt-3">
+<span class=me-auto style=margin-right:auto!important>Xml & Json</span>
+<span>78%</span></div>
+<div class="progress my-2" style=border-radius:20px;height:3vh>
+<div class=progress-bar role=progressbar data-aos=zoom-in-right data-aos-delay=500 style=width:78%;background-color:#f6e05e!important;border-radius:20px;height:3vh aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>Intermediate</div>
+</div></div></div></div></div>
+<div class=container-fluid style=margin-top:10rem id=belowportfolio>
+<h3 class=text-center>Portfolio</h3>
+<img src=images/marker.svg class="portfolioimg img-fluid" alt=marker-img>
+<div class=container-fluid style=width:95%;margin:auto>
+<div class="container-fluid mt-5 img-gallery">
+<div class=box data-aos=zoom-in data-aos-delay=100 data-aos-offset=190>
+<div class=img-box>
+<figure> <img src=images/project1.png class=img-fluid alt=project1> </figure>
 </div>
 <div class="container img-box-text">
-  <h5>Wedding Site</h5>
-  <button onclick="window.open('https://salmanmemon0909.github.io/wedding' , '_blank')">View</button>
+<h5>AageBarho</h5>
+<button onclick='window.open("https://salmanmemon0909.github.io/aagebarho/","_blank")'>View</button>
 </div>
 </div>
-
-
-
-
-
-<div class="box" data-aos="zoom-in" data-aos-delay="300" data-aos-offset="190">
-    <div class="img-box">
-      <figure> <img src="images/project2.png" class="img-fluid" alt="project2"> </figure>
-  </div>
-  <div class="container img-box-text">
-    <h5>Landing Page</h5>
-    <button onclick="window.open('https://salmanmemon0909.github.io/landingpage' , '_blank')">View</button>
-  </div>
-  </div>
-  
-
-
-
-
-
-
-
-<div class="box" data-aos="zoom-in" data-aos-delay="250" >
-    <div class="img-box">
-      <figure> <img src="images/project5.png" class="img-fluid" alt="project4"> </figure>
-  </div>
-  <div class="container img-box-text">
-    <h5>validateform with Angular</h5>
-    <button onclick="window.open('https://salmanmemon0909.github.io/validateform' , '_blank')">View</button>
-  </div>
-  </div>
-
-
-
-
-
+<div class=box data-aos=zoom-in data-aos-delay=100 data-aos-offset=190>
+<div class=img-box>
+<figure> <img src=images/project3.png class=img-fluid alt=project3> </figure>
+</div>
+<div class="container img-box-text">
+<h5>Wedding Site</h5>
+<button onclick='window.open("https://salmanmemon0909.github.io/wedding","_blank")'>View</button>
+</div>
+</div>
+<div class=box data-aos=zoom-in data-aos-delay=300 data-aos-offset=190>
+<div class=img-box>
+<figure> <img src=images/project2.png class=img-fluid alt=project2> </figure>
+</div>
+<div class="container img-box-text">
+<h5>Landing Page</h5>
+<button onclick='window.open("https://salmanmemon0909.github.io/landingpage","_blank")'>View</button>
+</div>
+</div>
+<div class=box data-aos=zoom-in data-aos-delay=250>
+<div class=img-box>
+<figure> <img src=images/project5.png class=img-fluid alt=project4> </figure>
+</div>
+<div class="container img-box-text">
+<h5>validateform with Angular</h5>
+<button onclick='window.open("https://salmanmemon0909.github.io/validateform","_blank")'>View</button>
 </div>
 </div>
 </div>
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="container" style="margin-top: 9rem;" id="contact">
-
-  <h3 class="text-center">Contact Me</h3>
-  <img src="images/marker.svg" class="contactimg img-fluid" alt="marker-img">
-
-
+</div>
+<div class=container style=margin-top:9rem id=contact>
+<h3 class=text-center>Contact Me</h3>
+<img src=images/marker.svg class="contactimg img-fluid" alt=marker-img>
 <div class="row container">
-
-  <div class="col-lg-6 bg-light" style="margin: auto!important; margin-top: 7rem!important;" data-aos="fade-up" data-aos-delay="100" data-aos-offset="150">
-
-
-
-
-
-    <form name="myForm" method="POST" enctype="multipart/form-data" novalidate ng-submit="myForm.$valid && formsub();" class="p-4">
-      <div class="form-group">
-        <label for="exampleInputName1" class="mt-4">Name:</label>
-        <input type="text" id="exampleInputtext1" name="firstName" ng-model="firstName" class="form-control" placeholder="e.g. Salman" ng-pattern="/^[a-zA-Z. ]{3,20}$/" required>
-        <span style="color:Red" ng-show="myForm.firstName.$error.required"> Required! </span>
-        <span style="color:Red; margin-top:0.5rem; letter-spacing: 0.1rem;" class="fa fa-times" ng-show="myForm.firstName.$dirty&&myForm.firstName.$error.pattern">&nbsp;Only Alphabets Allowed, Minimum 3 Characters</span>
-        <span  style="color:green" class="fa fa-check-circle" ng-show="myForm.firstName.$valid"></span>
-    </div>
-
-      <div class="form-group">
-        <label for="exampleInputEmail1" class="">Email:</label>
-        <input type="text" name="email" id="exampleInputEmail1" ng-model="email" required class="form-control" placeholder="e.g. salmanmemon0909@gmail.com" ng-pattern="/^[a-zA-Z0-9.]{3,}[@][a-zA-Z0-9]{3,}[.][a-zA-Z.]{2,6}$/">
-
-        <span style="color:Red" ng-show="myForm.email.$error.required"> Required! </span>
-
-        <span style="color:Red; margin-top:0.5rem; letter-spacing: 0.1rem;" class="fa fa-times" ng-show="myForm.email.$dirty&&myForm.email.$error.pattern">&nbsp;Invalid Email!!!</span>
-
-<span  style="color:green" class="fa fa-check-circle" ng-show="myForm.email.$valid"></span>
-      </div>
-       <div class="form-group">
-        <label for="exampleInputMessage1" class="">Message:</label>
-        <input type="text" id="exampleInputMessage1" name="Message" ng-model="Message" required class="form-control" placeholder="Enter Your Message" ng-pattern="/^[a-zA-z0-9 .,:;'!?]{30,}$/">
-
-        <span style="color:Red" ng-show="myForm.Message.$error.required"> Required! </span>
-
-        <span style="color:Red; margin-top:0.5rem; letter-spacing: 0.1rem;" class="fa fa-times" ng-show="myForm.Message.$dirty&&myForm.Message.$error.pattern">&nbsp;Message Must Be 30 letter's Above</span>
-
-<span style="color:green" class="fa fa-check-circle" ng-show="myForm.Message.$valid"></span>
-      </div>
-
-      <button type="submit" ng-disabled="myForm.$invalid" class="btn mb-5 sub-btn">Submit</button>
-
-
-
-
-
-    </form>
-
-
-
-
-  </div>
-
-
-  <div class="col-lg-5 information" data-aos="fade-down" data-aos-delay="250" data-aos-offset="170">
-    <h4> Let’s talk how I can help you! </h4>
-    <p class="mt-4">If you like my work and want to avail my services then drop me a message using the contact form.</p>
-    <p>Or get in touch using my email, linkedin or my contact number.</p>
-    <p>See you!</p>
-    <div class="row">
-      <div class="col-2 mt-4">Email:</div>
-      <div class="col-sm-9 col-10 mt-4 forhov" style="font-weight: 600; margin-left: auto!important;" onclick="window.open('mailto:salmanmemon0909@gmail.com' , '_self')">salmanmemon0909@gmail.com</div>
-
-      <div class="col-2 mt-2">Linkedin:</div>
-      <div class="col-sm-9 col-10 mt-2 forhov" style="font-weight: 600; margin-left: auto!important;" onclick="window.open('https://www.linkedin.com/in/salmanmemon0909/' , '_blank')">salmanmemon0909</div>
-
-      <div class="col-2 mt-2">contact:</div>
-      <div class="col-sm-9 col-10 mt-2 forhov" style="font-weight: 600; margin-left: auto!important;" onclick="window.open('tel:03172761910' , '_self')">+923172761910</div>
-    </div>
-  </div>
-
+<div class="col-lg-6 bg-light" style=margin:auto!important;margin-top:7rem!important data-aos=fade-up data-aos-delay=100 data-aos-offset=150>
+<form name=myForm method=POST enctype=multipart/form-data novalidate ng-submit="myForm.$valid && formsub();" class=p-4>
+<div class=form-group>
+<label for=exampleInputName1 class=mt-4>Name:</label>
+<input id=exampleInputtext1 name=firstName ng-model=firstName class=form-control placeholder="e.g. Salman" ng-pattern="/^[a-zA-Z. ]{3,20}$/" required>
+<span style=color:Red ng-show=myForm.firstName.$error.required> Required! </span>
+<span style=color:Red;margin-top:.5rem;letter-spacing:.1rem class="fa fa-times" ng-show=myForm.firstName.$dirty&&myForm.firstName.$error.pattern>&nbsp;Only Alphabets Allowed, Minimum 3 Characters</span>
+<span style=color:green class="fa fa-check-circle" ng-show=myForm.firstName.$valid></span>
 </div>
-
-
-
+<div class=form-group>
+<label for=exampleInputEmail1>Email:</label>
+<input name=email id=exampleInputEmail1 ng-model=email required class=form-control placeholder="e.g. salmanmemon0909@gmail.com" ng-pattern=/^[a-zA-Z0-9.]{3,}[@][a-zA-Z0-9]{3,}[.][a-zA-Z.]{2,6}$/ >
+<span style=color:Red ng-show=myForm.email.$error.required> Required! </span>
+<span style=color:Red;margin-top:.5rem;letter-spacing:.1rem class="fa fa-times" ng-show=myForm.email.$dirty&&myForm.email.$error.pattern>&nbsp;Invalid Email!!!</span>
+<span style=color:green class="fa fa-check-circle" ng-show=myForm.email.$valid></span>
 </div>
-
-
-
-
-
-<footer class=" text-center container-fluid bg-light" style="margin-top: 9rem;">
-
-
-<h3 class="" style="padding-top: 6rem; letter-spacing: 0.1rem;">Salman Memon</h3>
-
+<div class=form-group>
+<label for=exampleInputMessage1>Message:</label>
+<input id=exampleInputMessage1 name=Message ng-model=Message required class=form-control placeholder="Enter Your Message" ng-pattern="/^[a-zA-z0-9 .,:;'!?]{30,}$/">
+<span style=color:Red ng-show=myForm.Message.$error.required> Required! </span>
+<span style=color:Red;margin-top:.5rem;letter-spacing:.1rem class="fa fa-times" ng-show=myForm.Message.$dirty&&myForm.Message.$error.pattern>&nbsp;Message Must Be 30 letter's Above</span>
+<span style=color:green class="fa fa-check-circle" ng-show=myForm.Message.$valid></span>
+</div>
+<button type=submit ng-disabled=myForm.$invalid class="btn mb-5 sub-btn">Submit</button>
+</form>
+</div>
+<div class="col-lg-5 information" data-aos=fade-down data-aos-delay=250 data-aos-offset=170>
+<h4> Let’s talk how I can help you! </h4>
+<p class=mt-4>If you like my work and want to avail my services then drop me a message using the contact form.</p>
+<p>Or get in touch using my email, linkedin or my contact number.</p>
+<p>See you!</p>
+<div class=row>
+<div class="col-2 mt-4">Email:</div>
+<div class="col-sm-9 col-10 mt-4 forhov" style=font-weight:600;margin-left:auto!important onclick='window.open("mailto:salmanmemon0909@gmail.com","_self")'>salmanmemon0909@gmail.com</div>
+<div class="col-2 mt-2">Linkedin:</div>
+<div class="col-sm-9 col-10 mt-2 forhov" style=font-weight:600;margin-left:auto!important onclick='window.open("https://www.linkedin.com/in/salmanmemon0909/","_blank")'>salmanmemon0909</div>
+<div class="col-2 mt-2">contact:</div>
+<div class="col-sm-9 col-10 mt-2 forhov" style=font-weight:600;margin-left:auto!important onclick='window.open("tel:03172761910","_self")'>+923172761910</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="text-center container-fluid bg-light" style=margin-top:9rem>
+<h3 style=padding-top:6rem;letter-spacing:.1rem>Salman Memon</h3>
 <p class="lead mt-2">Web Developer & UI/UX Designer</p>
-
-
 <div class="wrapper mt-2">
-  <div class="icon facebook">
-    <div class="tooltip">Facebook</div>
-    <span onclick="window.open('https://www.facebook.com/salmanmemon0909' , '_blank' )"><i class="fa-brands fa-facebook pl-2"></i></span>
-  </div>
-  <div class="icon twitter">
-    <div class="tooltip">Twitter</div>
-    <span onclick="window.open('https://twitter.com/salmanmemon0909' , '_blank')"><i class="fa-brands fa-twitter pl-2"></i></span>
-  </div>
-  <div class="icon instagram">
-    <div class="tooltip">Instagram</div>
-    <span onclick="window.open('https://www.instagram.com/salman_memon_0909/' , '_blank')"> <i class="fa-brands fa-instagram pl-2"></i></span>
-  </div>
-  <div class="icon github">
-    <div class="tooltip">Github</div>
-    <span onclick="window.open('https://github.com/salmanmemon0909' , '_blank')"><i class="fa-brands fa-github pl-2"></i></span>
-  </div>
-  <div class="icon linkedin">
-    <div class="tooltip">Linkedin</div>
-    <span onclick="window.open('https://www.linkedin.com/in/salmanmemon0909/' , '_blank')"><i class="fa-brands fa-linkedin pl-2"></i></span>
-  </div>
+<div class="icon facebook">
+<div class=tooltip>Facebook</div>
+<span onclick='window.open("https://www.facebook.com/salmanmemon0909","_blank")'><i class="fa-brands fa-facebook pl-2"></i></span>
 </div>
-
-<p class="lead" style="font-size: 0.9rem; margin-top: 3rem;">© Salman Memon. All rights reserved.</p>
-
+<div class="icon twitter">
+<div class=tooltip>Twitter</div>
+<span onclick='window.open("https://twitter.com/salmanmemon0909","_blank")'><i class="fa-brands fa-twitter pl-2"></i></span>
+</div>
+<div class="icon instagram">
+<div class=tooltip>Instagram</div>
+<span onclick='window.open("https://www.instagram.com/salman_memon_0909/","_blank")'> <i class="fa-brands fa-instagram pl-2"></i></span>
+</div>
+<div class="icon github">
+<div class=tooltip>Github</div>
+<span onclick='window.open("https://github.com/salmanmemon0909","_blank")'><i class="fa-brands fa-github pl-2"></i></span>
+</div>
+<div class="icon linkedin">
+<div class=tooltip>Linkedin</div>
+<span onclick='window.open("https://www.linkedin.com/in/salmanmemon0909/","_blank")'><i class="fa-brands fa-linkedin pl-2"></i></span>
+</div>
+</div>
+<p class=lead style=font-size:.9rem;margin-top:3rem>© Salman Memon. All rights reserved.</p>
 </footer>
-
-
-
-
-
 </section>
-
-
-
-
-<script>
-  AOS.init({
-      offset: 50,
-      duration: 1000,
-      once: true,
-      });
-</script>
-
-
-
-
-
-
-
-<!-- jquery cdn -->
-<script src="bootstrap/jquery.js"></script>
-
-
-<link rel="stylesheet" href="bootstrap/toastr.min.css">
-<script src="bootstrap/toastr.min.js"></script>
-
-
-
-<script src="bootstrap/js/bootstrap.js"></script>
-
-
-<!-- angular -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-
-
-
-
-
-
-<!-- angular code -->
-<script>
-
-  var app = angular.module('ngApp', []);
-
-app.controller('controller', function ($scope) {$scope.formsub = function () {toastr.options = {
+<script>var preloader=document.getElementById("preloader");window.addEventListener("load",(function(){preloader.style.display = "none";}))</script>
+<script>AOS.init({offset:50,duration:1e3,once:!0})</script>
+<script src=bootstrap/jquery.js></script>
+<link rel=stylesheet href=bootstrap/toastr.min.css>
+<script src=bootstrap/toastr.min.js></script>
+<script src=bootstrap/js/bootstrap.js></script>
+<script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js></script>
+<script>var app = angular.module('ngApp', []);app.controller('controller', function ($scope) {$scope.formsub = function () {toastr.options = {
 "preventDuplicates": true,
 "newestOnTop": false,
 "progressBar": true,
@@ -861,10 +394,5 @@ app.controller('controller', function ($scope) {$scope.formsub = function () {to
 "hideMethod": "fadeOut"}
 $scope.msg = toastr.success("form submitted", "Thanks for contact");}});
 </script>
-
-
-
-
-
 </body>
 </html>
